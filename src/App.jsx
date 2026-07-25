@@ -25,7 +25,7 @@ async function handleSearch (){
     setError("")
 
     try {
-      const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`)
+      const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`)
       if(!response.ok) throw new Error(`Resquest Failed ${response.status}`);
       const data = await response.json()
       setWeather(data)
