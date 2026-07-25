@@ -1,16 +1,98 @@
-# React + Vite
+# 🌤 React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather application built with React, Vite, and Tailwind CSS. Search for any city to view real-time weather information powered by the WeatherAPI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔍 Search weather by city
+- 🌡️ Current temperature
+- 💧 Humidity
+- 💨 Wind speed
+- 🌍 Country and location
+- 🌤️ Weather condition
+- ⌨️ Press Enter to search
+- ⏳ Loading indicator
+- ❌ Error message for invalid cities
+- 🎨 Dynamic background based on weather
+- 📱 Responsive design
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- WeatherAPI
+- JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Add a screenshot of your app here after deployment.
+
+## 🚀 Live Demo
+
+Coming soon...
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/react-weather-app.git
+```
+
+Go into the project:
+
+```bash
+cd react-weather-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file in the project root:
+
+```env
+VITE_WEATHER_API_KEY=YOUR_API_KEY
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── SearchBar.jsx
+│   ├── WeatherCard.jsx
+│   ├── InfoCard.jsx
+│   ├── Loading.jsx
+│   └── ErrorMessage.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## 📚 What I Learned
+
+Through this project I practised:
+
+- React Components
+- Props
+- useState
+- Conditional Rendering
+- API Fetching
+- Async/Await
+- Error Handling
+- Environment Variables
+- Tailwind CSS
+- Responsive UI Design
+
+## 📄 License
+
+This project is for learning and portfolio purposes.

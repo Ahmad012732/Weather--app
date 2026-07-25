@@ -66,7 +66,7 @@ async function handleSearch (){
     <div className="max-w-6xl mx-auto bg-white rounded-3xl shadow-2xl p-8">
 
       <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
-        🌤 Weather App
+        🌦 SkyCast
       </h1>
 
       <SearchBar
