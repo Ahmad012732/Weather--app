@@ -25,8 +25,7 @@ A modern weather application built with React, Vite, and Tailwind CSS. Search fo
 - JavaScript (ES6+)
 
 ## 📸 Screenshot
-
-> Add a screenshot of your app here after deployment.
+![weather-app](./screenshort/Weather-app.png)
 
 ## 🚀 Live Demo
 
