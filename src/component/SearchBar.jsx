@@ -21,7 +21,7 @@ function SearchBar ({city, setCity ,handleSearch, loading, handleKeyDown}) {
          disabled={loading}
          className='bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition duration-300'
          >
-          Search
+      
           {loading? "Searching..." : "Search"}
           </button>
     </div>
