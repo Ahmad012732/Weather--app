@@ -29,7 +29,7 @@ A modern weather application built with React, Vite, and Tailwind CSS. Search fo
 
 ## 🚀 Live Demo
 
-Coming soon...
+🔗 https://weather-app-ruby-delta-48.vercel.app/
 
 ## ⚙️ Installation
 
